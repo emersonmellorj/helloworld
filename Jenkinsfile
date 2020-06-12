@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git 'https://github.com/luccadias/helloworld.git'
+        git 'https://github.com/emersonmellorj/helloworld.git'
       }
     }
     stage('Install dependencies') {
